@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Montez&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav {
+  font-family: "Anaktoria";
+  font-weight: bold;
+  color: white;
+  background-color: #00000096 !important;
+}
+
+.bgImage {
+  background: url(/assets/img/header_bg.jpg) no-repeat center;
+  height: 50vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.bgColor {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bgColor2 {
+  background-color: #273043;
+  /* #F28482; */
+}
+
+.dividerLight {
+  background-color: white;
+  width: 50%;
+  height: 2px;
+  margin: 0 auto !important;
+}
+
+.dividerDark {
+  background-color: black;
+  width: 50%;
+  height: 2px;
+  margin: 0 auto !important;
+}
+/* HEADER Styles */
+
+header {
+  padding-bottom: 1rem;
+  box-shadow: 1px 1px 20px 5px #00000096;
+}
+
+header .profilePic {
+  margin-top: -100px;
+  border: 5px solid white;
+}
+
+header h1 {
+  font-family: "Montez", cursive;
+  font-size: 4em;
+}
+
+header p a {
+  text-decoration: none !important;
+  color: #ffffffaa;
+}
+
+header p a:hover {
+  text-decoration: none !important;
+  color: #ffffff;
+}
+
+header ul a {
+  text-decoration: none !important;
+  color: #ffffff;
+  margin: 0 0.5em;
+}
+
+header ul a:hover {
+  text-decoration: none !important;
+  color: #ffffffaa;
+}
+
+/* Skills */
+
+section {
+  padding: 2em;
+}
+
+#skills {
+  color: #607d8b;
+  /* background-color: white; */
+}
+
+#skills .dividerDark {
+  background-color: #607d8b;
+  width: 50%;
+  height: 2px;
+  margin: 0 auto !important;
+}
+
+.skillsIcons li {
+  text-decoration: none;
+  display: inline;
+  font-size: 3rem;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+/* Projects */
+
+#projects {
+  background-color: #345995;
+}
+
+#projects .card {
+  /* background-color: transparent; */
+  color: #345995;
+}
+
+#contact {
+  position: relative;
+}
+
+.footerBg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: url(/assets/img/footer-background.png) no-repeat bottom;
+  background-size: cover;
+  width: 100vw;
+  height: 25vh;
+}
+
+.name {
+  font-family: "Montez", cursive;
+  font-size: 2em;
+  text-align: left;
+  margin-left: 10%;
+  margin-bottom: 0;
+}
+
+.address {
+  text-align: left;
+  margin-left: 10%;
+}
+
+.footerLinks {
+  text-align: right;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+  .name,
+  .address {
+    text-align: center;
+    margin-left: auto;
+  }
+  .footerLinks {
+    text-align: center;
+  }
+}
